@@ -1,2 +1,2 @@
 # FSDiary
-Diary for Jinzha App
+记录本

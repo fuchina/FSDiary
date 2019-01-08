@@ -1,0 +1,10 @@
+platform:ios,'8.2'
+
+target 'FSDiarySample' do
+
+  pod 'FSDiary', :path => '../'
+#  pod 'FSJZKit', :path => '../../FSJZKit/'
+
+
+end
+
