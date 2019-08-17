@@ -10,7 +10,10 @@
 
 @interface FSDiaryController : FSBaseController
 
-- (instancetype)initWithZone:(NSString * _Nonnull )zone
+@property (nonatomic,assign) BOOL       isSearchMode;
+@property (nonatomic,strong) NSArray    *searchResults;
+
+- (instancetype _Nullable )initWithZone:(NSString * _Nonnull )zone
                         name:(NSString * _Nonnull )name
                     password:(NSString * _Nonnull )password;
 

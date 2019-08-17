@@ -18,4 +18,6 @@
 
 + (void)updateRereadedTime:(NSNumber *)aid;
 
++ (NSMutableArray *)searchText:(NSString *)text password:(NSString *)password;
+
 @end
